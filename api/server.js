@@ -6,7 +6,7 @@ server.use(express.json());
 
 
 server.get('/', (req, res) => {
-    res.send('Aloha!');
+    res.send('Aloha! from heroku');
 });
 
 server.put('/', (req, res)=> {
